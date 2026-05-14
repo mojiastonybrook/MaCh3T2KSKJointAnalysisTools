@@ -1,0 +1,17 @@
+The order of making 1D/2D contour plots using Clarence scripts:
+
+1. Make contour output root files
+
+copy makeplots.sh to your project directory, modify the sbatch directives/script path/command run order/etc. accordingly;
+run makeplots.sh --> output root files (example files are already included in the same dir as the scripts)
+
+2. Make plots out of the files from 1
+
+PLEASE USE ROOT6 when you make plots! ('module load root' should be okay on Cedar)
+
+no need to submit jobs for this step since making plots is very fast;
+
+check the input root file names in plot1d.sh and plot2d.sh before running them;
+
+run 'source plot1d.sh' for 1D plots
+run 'source plot2d.sh' for 2D plots
