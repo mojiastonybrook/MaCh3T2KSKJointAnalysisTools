@@ -201,7 +201,7 @@ void read_file_hybridPi0_AtmSKDets_deltaChi2(){
     y_min = Hist2D_temp->GetYaxis()->GetBinLowEdge(1);
     std::cout << "Hist2D y_min: " << y_min << std::endl;
     // print name
-    TString print_name = Form("HyridPi0Comparison/HyrbidPi0_dChi2_Hist2D_Comp_%s.pdf",Chi2Maps[i].Data());
+    TString print_name = Form("HybridPi0Comparison/HyrbidPi0_dChi2_Hist2D_Comp_%s.pdf",Chi2Maps[i].Data());
     C->Print(print_name);
   }
 
