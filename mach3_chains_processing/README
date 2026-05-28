@@ -1,0 +1,6 @@
+Follow the order to process MCMC raw files (chain):
+
+1. reduce the chains
+2. rewight the chains with reactor constraints
+3. (optional) smear the chains with fake data studies' results
+4. merge the reduced and reweighted chains into one mega file for the sake of convience for later analysis 
