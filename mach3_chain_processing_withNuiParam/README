@@ -1,0 +1,7 @@
+Process the raw MCMC files (chains) to save only the branches of oscillation parameters together with some nuisance parameters.
+
+The order to process the chains:
+
+1. reduce the raw chains
+2. reweight the chains with reactor constraints
+3. merge the reduced and reweighted files into one mega file
